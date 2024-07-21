@@ -1,0 +1,80 @@
+body
+{
+    margin: 0;
+}
+
+#content
+{
+    position: relative;
+    width: 1280px;
+    height: 720px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+canvas
+{
+    width: 1280px;
+    height: 720px;
+    image-rendering: pixelated;
+}
+
+#tooltip
+{
+    position: absolute;
+    background-color: #0009;
+    color: white;
+    padding: 0.3em;
+    border-radius: 0.3em;
+    user-select: none;
+    pointer-events: none;
+}
+
+#dialogue-box
+{
+    position: absolute;
+    left: 100px;
+    right: 100px;
+    top: 500px;
+    bottom: 10px;
+    padding: 16px;
+    user-select: none;
+    pointer-events: none;
+}
+
+#dialogue-text-hidden
+{
+    visibility: hidden;
+}
+
+.narrator-text
+{
+    font-size: 36px;
+    font-style: normal;
+    color: #fff;
+    background-color: #000000cc;
+}
+
+.bimbo-text
+{
+    font-family: "Nanum Pen Script", cursive;
+    font-size: 48px;
+    font-style: normal;
+    color: #fff;
+    background-color: #e11b77cc;
+}
+
+.douche-text
+{
+    font-family: "Lalezar", system-ui;
+    font-size: 42px;
+    font-style: normal;
+    color: #7f1929;
+    background-color: #f27de9cc;
+}
+  
+.hide
+{
+    display: none !important;
+}
